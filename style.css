@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(46, 156, 192);
+    
+}
+
+.titulo{
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+
+.quadrado{
+    background-color: aliceblue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 7%;
+}
+/*section :hover{
+    transform: translateZ(100px);
+    color: red;
+    transform: scale(1.2 , 1.2);
+    transition: all 1s;
+}*/
+.input{
+    text-align: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#enviar:hover{
+    transform: scale(1.2 , 1.2);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(46, 156, 192);
+    color: aliceblue;
+}
